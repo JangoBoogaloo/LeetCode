@@ -1,12 +1,14 @@
 #pragma once
+
+#include "Array.h"
 #include <vector>
+
 using namespace std;
 
-class FlippingAnImage
+class ARRAY_API FlippingAnImage
 {
 public:
-  vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A);
   FlippingAnImage();
   ~FlippingAnImage();
+  vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A);
 };
-

@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "FlippingAnImage.h"
 
 
@@ -10,7 +11,7 @@ FlippingAnImage::~FlippingAnImage()
 {
 }
 
-vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) 
+vector<vector<int>> FlippingAnImage::flipAndInvertImage(vector<vector<int>>& A)
 {
-  return vector<vector<int>>();
+  return A;
 }
