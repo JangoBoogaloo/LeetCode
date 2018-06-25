@@ -11,23 +11,41 @@ namespace ArrayTest
 	{
   private:
     FlippingAnImage flippingAnImage;
+    vector<vector<int>> inputData;
+    vector<vector<int>> correctOutputData;
+    vector<vector<int>> outputData;
 	public:
 		
 		TEST_METHOD(BasicCaseTest)
     {
-      vector<vector<int>> inputData = 
+      inputData = 
       { 
         { 1, 1, 0 }, 
         { 1, 0, 1 }, 
         { 0, 0, 0 } 
       };
-      vector<vector<int>> correctOutputData = 
+      correctOutputData = 
       {
         { 1, 0, 0 },
         { 0, 1, 0 },
         { 1, 1, 1 }
       };
-      vector<vector<int>> outputData = flippingAnImage.flipAndInvertImage(inputData);
+      outputData = flippingAnImage.flipAndInvertImage(inputData);
+      Assert::IsTrue(correctOutputData == outputData, L"Result not matched", LINE_INFO());
+
+      inputData =
+      {
+        { 0, 1, 0 },
+        { 0, 0, 1 },
+        { 0, 1, 1 }
+      };
+      correctOutputData =
+      {
+        { 1, 0, 1 },
+        { 0, 1, 1 },
+        { 0, 0, 1 }
+      };
+      outputData = flippingAnImage.flipAndInvertImage(inputData);
       Assert::IsTrue(correctOutputData == outputData, L"Result not matched", LINE_INFO());
 		}
 
