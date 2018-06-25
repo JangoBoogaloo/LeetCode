@@ -32,5 +32,8 @@
     <ClCompile Include="ArrayPartition_ITest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="WiggleSortTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
