@@ -16,7 +16,7 @@ namespace ArrayTest
     vector<vector<int>> outputData;
 	public:
 		
-		TEST_METHOD(BasicCaseTest)
+    TEST_METHOD(flipAndInvertImage)
     {
       inputData = 
       { 
