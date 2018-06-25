@@ -30,6 +30,9 @@
     <ClInclude Include="ReverseString.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RomanToInteger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -39,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ReverseString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RomanToInteger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

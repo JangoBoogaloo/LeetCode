@@ -29,5 +29,8 @@
     <ClCompile Include="ReverseStringTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RomanToIntegerTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
