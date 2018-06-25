@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringTest", "StringTest\St
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String", "String\String.vcxproj", "{64C76A75-7506-4714-83DF-FCE145DE2EAF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.vcxproj", "{5C6589D8-BD3A-487C-BF73-3709C5BE5795}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicProgrammingTest", "DynamicProgrammingTest\DynamicProgrammingTest.vcxproj", "{3DE1A19C-40B1-4981-8E72-3595D39E2427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +37,14 @@ Global
 		{64C76A75-7506-4714-83DF-FCE145DE2EAF}.Debug|Win32.Build.0 = Debug|Win32
 		{64C76A75-7506-4714-83DF-FCE145DE2EAF}.Release|Win32.ActiveCfg = Release|Win32
 		{64C76A75-7506-4714-83DF-FCE145DE2EAF}.Release|Win32.Build.0 = Release|Win32
+		{5C6589D8-BD3A-487C-BF73-3709C5BE5795}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C6589D8-BD3A-487C-BF73-3709C5BE5795}.Debug|Win32.Build.0 = Debug|Win32
+		{5C6589D8-BD3A-487C-BF73-3709C5BE5795}.Release|Win32.ActiveCfg = Release|Win32
+		{5C6589D8-BD3A-487C-BF73-3709C5BE5795}.Release|Win32.Build.0 = Release|Win32
+		{3DE1A19C-40B1-4981-8E72-3595D39E2427}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DE1A19C-40B1-4981-8E72-3595D39E2427}.Debug|Win32.Build.0 = Debug|Win32
+		{3DE1A19C-40B1-4981-8E72-3595D39E2427}.Release|Win32.ActiveCfg = Release|Win32
+		{3DE1A19C-40B1-4981-8E72-3595D39E2427}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
